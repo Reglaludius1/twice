@@ -1,0 +1,73 @@
+body {
+    background-image: url(https://kpopping.com/uploads/documents/80249916.jpeg),url(https://dbkpop.com/wp-content/uploads/2019/09/twice_feel_special_concept_HD_Gold_all-2000x1335.jpg),url(https://wallpapercave.com/wp/wp4390694.jpg),url(https://dbkpop.com/wp-content/uploads/2019/09/twice_feel_special_concept_HD_Blue_all_1-2000x1428.jpg);
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+    background-color: bisque;
+    /* background-position: top,center,bottom; */
+    background-position: 0 0,0 1350,0 2610,0 5150
+}
+.h1 {
+    color: gold;
+    outline-color: saddlebrown;
+    border-color: coral;
+    margin-left: 205;
+    font-size: 50;
+}
+.h2 {
+    color: white;
+    outline-color: saddlebrown;
+}
+.h3 {
+    color: peachpuff;
+    margin-left: 259.5;
+    text-shadow: 2px 2px black
+}
+.img1 {
+    width: 600;
+}
+.img0 {
+    width: 600;
+    border: 5px solid #ddd;
+    border-color:goldenrod;
+    border-radius: 4px;
+}
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5); 
+}
+    
+.Members {
+    margin-left: 666;
+
+
+}
+.body1 {
+    margin-left: 666;
+}
+.h2 {
+    margin-left: 205;
+    margin-bottom: 50;
+}
+
+a:-webkit-any-link{
+    text-decoration:none !important;
+    }
+.h4 {
+    color: gold;
+    text-shadow: 2px 2px brown
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
